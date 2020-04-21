@@ -10,6 +10,12 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <springfox-version>2.5.0</springfox-version>
+        
+         <sonar.projectKey>mayarazacarias_psw</sonar.projectKey>
+         <sonar.organization>mayarazacarias</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+         <sonar.login>d39e57ab14908c37c82c7e8182b9b61cefb5ac48</sonar.login>
+        
     </properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
